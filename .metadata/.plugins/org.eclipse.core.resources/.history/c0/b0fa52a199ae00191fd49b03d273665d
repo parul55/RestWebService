@@ -1,0 +1,27 @@
+package com.zensar.services;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.Response;
+
+@Path("/zenparam")
+public class HelloParam{
+	
+	@Path("/welcomed/{nm}")
+	@GET
+	@Produces("text/html")
+	public Response getMessage(@PathParam("nm") String day,month,year){
+		return Response.status(200).entity("<p> Birthday --> "+day+"/"+month+"/"+year+"</p>").build();
+	}
+
+}
+
+/*
+@Path("/welcome/{nm}")
+@GET/{mn}/{mp}
+@Produces("text/html"),"mn","mp"
+public Response getMessage(@PathParam("nm") String name){
+	return Response.status(200).entity("<p>Hello <b><i>" +name+"</i></b> Welcome to Zensar Hello Service</p>").build();
+}*/

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Trivago Home</title>
+<style type="text/css">
+body{
+	background-color: lime;
+}
+</style>
+</head>
+<body>
+	<!-- <h3>How do say Hello?</h3>
+	<h2><a href="http://localhost:8085/HelloWebServices/zenrest/zenhello">PLAIN</a></h2>
+	
+	<h4><a href="http://localhost:8085/HelloWebServices/zenrest/zenhello/welcome">HTML</a></h4>
+	
+	<h2><a href="http://localhost:8085/HelloWebServices/zenrest/zenhello/welcomexml">XML</a></h2>
+	 -->
+	<p><a href="addProducti.html">Add Product</a></p>
+	<p><a href="http://localhost:8085/HelloWebServices/zenrest/files/txt">Download</a></p>
+</body>
+</html>

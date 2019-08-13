@@ -1,0 +1,44 @@
+/**
+ * 
+ */
+package com.zensar.daos;
+
+import com.zensar.entities.Product;
+
+/*
+ * Author:	Parul Singh
+ * Creation Date: 26th Jul 2019 10.00AM
+ * Modified Date: 26th Jul 2019 10.00AM
+ * Version: 1.0
+ * Copyright: Zensar Technologies. All rights reserved. 
+ * Description: Data Access Object Interface implementor
+ * It implements all the methods of ProductDao interface
+ * It uses Hibernate API to access product data from Dao.
+ */
+public class ProductDaoImpl implements ProductDao {
+
+	/* (non-Javadoc)
+	 * @see com.zensar.daos.ProductDao#insert(com.zensar.entities.Product)
+	 */
+	
+	private Session session;
+	
+	@Override
+	public void insert(Product product) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void update(Product product) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(Product product) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

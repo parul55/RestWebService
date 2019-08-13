@@ -1,0 +1,23 @@
+/**
+ * 
+ */
+package com.zensar.daos;
+
+import com.zensar.entities.Product;
+
+/**
+ * @author TRG
+ *
+ */
+public class ProductDaoImpl implements ProductDao {
+
+	/* (non-Javadoc)
+	 * @see com.zensar.daos.ProductDao#insert(com.zensar.entities.Product)
+	 */
+	@Override
+	public void insert(Product product) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.zensar.business;
+
+public interface ProductService {
+
+}
